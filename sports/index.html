@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Mobile Metas -->
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <!-- Site Metas -->
+   <title>Jsports</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- Site Icons -->
+   <link rel="shortcut icon" href="" type="image/x-icon" />
+   <link rel="apple-touch-icon" href="">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Colors CSS -->
+   <link rel="stylesheet" href="css/colors.css">
+   <!-- ALL VERSION CSS -->	
+   <link rel="stylesheet" href="css/versions.css">
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="css/custom.css">
+   <!-- font family -->
+   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+   <!-- end font family -->
+   <link rel="stylesheet" href="css/3dslider.css" />
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+   <script src="js/3dslider.js"></script>
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXwuJlIDE9-PLbMK32-df_HXXCsQ0S9hE&callback=initMap"
+  type="text/javascript"></script>
+   </head>
+   <body class="game_info" data-spy="scroll" data-target=".header">
+      <!-- LOADER -->
+      <div id="preloader">
+         <img class="preloader" src="images/loading-img.gif" alt="">
+      </div>
+      <!-- END LOADER -->
+      <section id="top">
+         <header>
+            <div class="container">
+               <div class="header-top">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="full">
+                           <div class="logo">
+                              <a href="#"><img src="images/logo.jpg" alt="#" width="60px" /></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="right_top_section">
+                           <!-- social icon -->
+                           <ul class="social-icons pull-left">
+                              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                              <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                              <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                           </ul>
+                           <!-- end social icon -->
+                           <!-- button section -->
+                           <ul class="login">
+                              <li class="login-modal">
+                                 <a href="#" class="login"><i class="fa fa-user"></i>Login</a>
+                              </li>
+                              <li>
+                                 <div class="cart-option">
+                                    <a href="#"><i class="fa fa-shopping-cart"></i>Register</a>
+                                 </div>
+                              </li>
+                           </ul>
+                           <!-- end button section -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="header-bottom">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="full">
+                           <div class="main-menu-section">
+                              <div class="menu">
+                                 <nav class="navbar navbar-inverse">
+                                    <div class="navbar-header">
+                                       <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                                       <span class="sr-only">Toggle navigation</span>
+                                       <span class="icon-bar"></span>
+                                       <span class="icon-bar"></span>
+                                       <span class="icon-bar"></span>
+                                       </button>
+                                       <a class="navbar-brand" href="#">Menu</a>
+                                    </div>
+                                    <div class="collapse navbar-collapse js-navbar-collapse">
+                                       <ul class="nav navbar-nav">
+                                          <li class="active"><a href="index.html">Home</a></li>
+                                          <li><a href="http://jsports.in/about_jsprts.html">About</a></li>
+                                          <li><a href="http://jsports.in/sports_equipments.html">Equipments</a></li>
+                                          <li><a href="http://jsports.in/infrastructure.html">Infrastucture</a></li>
+                                          <li class="dropdown mega-dropdown">
+                                             <a href="match" class="dropdown-toggle" data-toggle="dropdown">Our Services<span class="caret"></span></a>				
+                                             <ul class="dropdown-menu mega-dropdown-menu">
+                                                <li class="col-sm-6">
+                                                   <ul>
+                                                      <li class="dropdown-header">JSports</li>
+                                                      <div id="menCollection" class="carousel slide" data-ride="carousel">
+                                                         <div class="carousel-inner">
+                                                            <div class="item active">
+                                                               <div class="banner-for-match"><a href="#"><img class="img-responsive" src="images/banner1.jpg" alt="#"  /></a></div>
+                                                            </div>
+                                                            <!-- End Item -->
+                                                            <div class="item">
+                                                               <div class="banner-for-match"><a href="#"><img class="img-responsive" src="images/banner1.jpg" alt="#" /></a></div>
+                                                            </div>
+                                                            <!-- End Item -->
+                                                            <div class="item">
+                                                               <div class="banner-for-match"><a href="#"><img class="img-responsive" src="images/banner1.jpg" alt="#"/></a></div>
+                                                            </div>
+                                                            <!-- End Item -->                                
+                                                         </div>
+                                                         <!-- End Carousel Inner -->
+                                                         <!-- Controls -->
+                                                         <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
+                                                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                         <span class="sr-only">Previous</span>
+                                                         </a>
+                                                         <a class="right carousel-control" href="#menCollection" role="button" data-slide="next">
+                                                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                         <span class="sr-only">Next</span>
+                                                         </a>
+                                                      </div>
+                                                      <!-- /.carousel -->
+                                                   </ul>
+                                                </li>
+                                                <li class="col-sm-4">
+                                                   <ul class="menu-inner">
+                                                      <li class="dropdown-header">Services</li>
+                                                      <li><a href="#">Sports Management & Consultancy</a></li>
+                                                      <li><a href="#">Sports Marketing & Sales</a></li>
+                                                      <li><a href="#">Sports Branding</a></li>
+                                                      <li><a href="#">Sports Infrastructure & Project Management</a></li>
+                                                      <li><a href="#">Sports Facility Management </a></li>
+                                                      <li><a href="#">Sports event Management</a></li>
+                                                      <li><a href="#">Sports Properties</a></li>
+                                                      <li><a href="#">Others</a></li>
+                                                   </ul>
+                                                </li>
+                                             </ul>
+                                          </li>
+                                          <li><a href="http://jsports.in/consultancy.html">Consultancy</a></li>
+                                          <li><a href="http://jsports.in/physiotherapy.html">Physiotherapy</a></li>
+                                          <li><a href="http://jsports.in/jsports.html">Academics</a></li>
+                                       </ul>
+                                    </div>
+                                    <!-- /.nav-collapse -->
+                                 </nav>
+                                 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <div class="full-slider">
+            <div id="carousel-example-generic" class="carousel slide">
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+               </ol>
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner" role="listbox">
+                  <!-- First slide -->
+                  <div class="item active deepskyblue" data-ride="carousel" data-interval="5000">
+                     <div class="carousel-caption">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                           <div class="slider-contant" data-animation="animated fadeInRight">
+                              <h3>If you Don’t Practice<br>You <span class="color-yellow">Don’t Derserve</span><br>to win!</h3>
+                              <p>Do you have a burning desire for playing Sports,We will make your dream beautiful.<br>
+                                 COME join us...talk to us!
+                              </p>
+                              <button class="btn btn-primary btn-lg">JOIN JSPORTS</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /.item -->
+                  <!-- Second slide -->
+                  <div class="item skyblue" data-ride="carousel" data-interval="5000">
+                     <div class="carousel-caption">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                           <div class="slider-contant" data-animation="animated fadeInRight">
+                              <h3>If you Don’t Practice<br>You <span class="color-yellow">Don’t Derserve</span><br>to win!</h3>
+                              <p>A highly motivated and dedicated team of thoroughgoing sportspersons, sports enthusiasts,<br>
+                              sports therapists, event managers and experts in sports.</p>
+                              <button class="btn btn-primary btn-lg">JOIN NOW</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /.item -->
+                  <!-- Third slide -->
+                  <div class="item darkerskyblue" data-ride="carousel" data-interval="5000">
+                     <div class="carousel-caption">
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                           <div class="slider-contant" data-animation="animated fadeInRight">
+                              <h3>If you Don’t Practice<br>You <span class="color-yellow">Don’t Derserve</span><br>to win!</h3>
+                              <p>Quality coaching, Quality coaching. Fitness & Endurance, Fitness & Endurance.<br> Focus on Grass root, tournaments. Multiple locations, First Aid & Support .</p>
+                              <button class="btn btn-primary btn-lg">GO FOR IT</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /.item -->
+               </div>
+               <!-- /.carousel-inner -->
+               <!-- Controls -->
+               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+            <!-- /.carousel -->
+            <div class="news">
+               <div class="container">
+                  <div class="heading-slider">
+                     <p class="headline"><i class="fa fa-star" aria-hidden="true"></i> Top Headlines :</p>
+                     <!--made by vipul mirajkar thevipulm.appspot.com-->
+                     <h1>
+                     <a href="" class="typewrite" data-period="2000" data-type='[ "Summer Camp 2021 Commencing in the first week of April.", "Annual Camp 2020-21 Closes on March 29,2021.", "AIFF Baby League Scheduled for Feb 22,2021.","JSPORTS Annual Tournament Feb 15 & 16,2021."]'>
+                     <span class="wrap"></span>
+                     </a>
+                     </h1>	   
+                     <span class="wrap"></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div><br>
+         <div class="main-heading sytle-2">
+          <h2></h2>
+         </div>
+      </section>
+      <div class="row">
+      <div class="col-lg-6 ">
+       <img src="images/img-03l.jpg">
+      </div>
+      <div class=" col-lg-6">
+       <img src="images/img-04r.jpg">
+      </div>
+      </div>
+    
+
+    
+    </div>
+      <section id="contant" class="contant">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-sm-4 col-xs-12">
+                  <aside id="sidebar" class="left-bar">
+                     <div class="banner-sidebar">
+                        <img class="img-responsive" src="images/img-05.jpg" alt="#" />
+                        <h3>A Premier FootBall Academy with promoting grass root football.</h3>
+                     </div>
+                  </aside>
+                  <h4>About JSports</h4>
+                  <aside id="sidebar" class="left-bar">
+                     <div class="feature-matchs">
+                        <div class="team-btw-match">
+                           <p class="about-para">A highly motivated and dedicated team of thoroughgoing sportspersons, sports enthusiasts, sports therapists, event managers and experts in sports management & consultancy form the strength and backbone of our organisation.At the core of our enterprise is the concept, the idea that sports should be easily available, affordable, playable and enjoyed by all, and realised as an experience that can be carried in to our daily lives. And so our tag line - Sports for all & all for sports!<br>
+                             <button class="btn btn-primary btn-md">Learn more</button></p>
+                        </div>
+                     </div>
+                  </aside>
+                  <h4>Our Venues</h4>
+                  <aside id="sidebar" class="left-bar">
+                     <div class="feature-matchs">
+                        <table class="table table-bordered table-hover">
+                           <thead>
+                              <tr>
+                                 <th>#</th>
+                                 <th>Venue</th>
+                                 <th>Contact</th>
+                                 <th>Stars</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>1</td>
+                                 <td><img src="images/logo.jpg" alt="" width="35px">Jayanagar</td>
+                                 <td>9886425600</td>
+                                 <td>5⭐</td>
+                              </tr>
+                              <tr>
+                                 <td>2</td>
+                                 <td><img src="images/logo.jpg" alt="" width="35px">Bellandur</td>
+                                 <td>9066540204</td>
+                                 <td>5⭐</td>
+                              </tr>
+                              <tr>
+                                 <td>3</td>
+                                 <td><img src="images/logo.jpg" alt="" width="35px">Sarjapur road</td>
+                                 <td>9886425600</td>
+                                 <td>5⭐</td>
+                              </tr>
+                              <tr>
+                                 <td>4</td>
+                                 <td><img src="images/logo.jpg" alt="" width="35px">Carmalaram</td>
+                                 <td>9066540204</td>
+                                 <td>4⭐</td>
+                              </tr>
+                              <tr>
+                                 <td>5</td>
+                                 <td><img src="images/logo.jpg" alt="" width="35px">Whitefield</td>
+                                 <td>9886425600</td>
+                                 <td>4⭐</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </aside>
+                  <div class="content-widget top-story" style="background: url(images/top-story-bg.jpg);">
+                     <div class="top-stroy-header">
+                        <h2>UP COMING EVENTS <a href="#" class="fa fa-fa fa-angle-right"></a></h2>
+                        <span class="date">July 05, 2017</span>
+                     </div>
+                     <ul class="other-stroies">
+                        <li><a href="#">Interschool football tournament.</a></li>
+                        <li><a href="#">Interschool cricket tournament.</a></li>
+                        <li><a href="#">Inter corporate football tournament. </a></li>
+                        <li><a href="#">T10 corporate India cup.</a></li>
+                        <li><a href="#">Football fiesta 2014</a></li>
+                        <li><a href="#">JSPORTS Annual Tournament Feb 2021</a></li>
+                        <li><a href="#">Summer Camp 2020</a></li>
+                        <li><a href="#">Stay tuned for more....</a></li>
+                     </ul>
+                     <p><button class="btn btn-primary btn-md">Learn more</button></p>
+                  </div>
+               </div>
+
+               <div class="col-lg-8 col-sm-8 col-xs-12">
+                  <div class="news-post-holder">
+                     <div class="news-post-widget">
+                        <img class="img-responsive" src="images/img-02_003.jpg" alt="">
+                        <div class="news-post-detail">
+                           <span class="date">20 november 2020</span>
+                           <h2><a href="#"> “Training” refers to a systematic approach to learning and development to improve individual, team, and organizational effectiveness..</a></h2>
+                           <p>We believe in nurturing and guiding sports aspirations, talent and a real spirit of sportsmanship toward which we actively promote and create opportunities for sporting excellence.</p>
+                        </div>
+                     </div>
+                     <div class="news-post-widget">
+                        <img class="img-responsive" src="images/img-01_002.jpg" alt="">
+                        <div class="news-post-detail">
+                           <span class="date">14 octobar 2019</span>
+                           <h2><a href="#">FootBall Exposure .Trip to spain</a></h2>
+                           <p>Confidence will boost once children meet real heros.Our activities and programs initiate and encourage development of various sports for children in semi-urban and rural communities. </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="news-post-holder">
+                     <div class="news-post-widget">
+                        <img class="img-responsive" src="images/img-03_003.jpg" alt="">
+                        <div class="news-post-detail">
+                           <span class="date">20 march 2016</span>
+                           <h2><a href="#">Success is much more than riches, power or fame.</a></h2>
+                           <p>A Professional sporting career is a long-time activity directed on fulfilling high achievement goals in a sport and consistent bettering of the achievement for the proper material compensation. This type of activity is fairly complex as it is practiced on the extreme field of competition. The task of mastering this activity is a long-term task of acquiring proper skills and conditions.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="full">
+                     <div class="main-heading sytle-2">
+                        <h2>Video</h2>
+                        <p>Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="video_section_main theme-padding middle-bg vedio">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="full">
+                     <div class="match_vedio">
+                        <img class="img-responsive" src="images/img-07.jpg" alt="#" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="team-holder theme-padding">
+         <div class="container">
+            <div class="main-heading-holder">
+               <div class="main-heading sytle-2">
+                  <h2>Our Partners and Clients</h2>
+                  <p>The Global Goals can only be met if we work together.The world is more interconnected than ever. Improving access to technology and knowledge is an important way to share ideas and foster innovation. </p>
+               </div>
+            </div>
+            <div id="team-slider">
+               <div class="container">
+                  <div class="col-md-3">
+                     <div class="team-column style-2">
+                        <img src="images/img-1-1.jpg" alt="" width="250px">
+                        
+                        <div class="overlay">
+                           <div class="team-detail-hover position-center-x">
+                              <p>Lacus vulputate torquent mollis venenatis quisque suspendisse fermentum primis,</p>
+                              <ul class="social-icons style-4 style-5">
+                                 <li><a class="facebook" href="#" tabindex="0"><i class="fa fa-facebook"></i></a></li>
+                                 <li><a class="twitter" href="#" tabindex="0"><i class="fa fa-twitter"></i></a></li>
+                                 <li><a class="youtube" href="#" tabindex="0"><i class="fa fa-youtube-play"></i></a></li>
+                                 <li><a class="pinterest" href="#" tabindex="0"><i class="fa fa-pinterest-p"></i></a></li>
+                              </ul>
+                              <a class="btn blue-btn" href=" /soccer/team-detail.html" tabindex="0">View Detail</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="team-column style-2">
+                        <img src="images/img-1-2.jpg" alt="">
+                        
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="team-column style-2">
+                        <img src="images/img-1-3.jpg" alt="" width="150px">
+                        
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="team-column style-2">
+                        <img src="images/img-1-4.jpg" alt="">
+                        
+                     </div>
+                  </div>
+               </div>
+         </div>
+         </div>
+      </div>
+      <footer id="footer" class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="full">
+                     <div class="footer-widget">
+                        <div class="footer-logo">
+                           <a href="#"><img src="images/logo.jpg" alt="#" /></a>
+                        </div>
+                        <p>By uniting our passion for sports with excellence in business, we intend to uplift sporting culture in India.</p>
+                        <ul class="social-icons style-4 pull-left">
+                           <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                           <li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="full">
+                     <div class="footer-widget">
+                        <h3>Menu</h3>
+                        <ul class="footer-menu">
+                           <li><a href="#">About JSports</a></li>
+                           <li><a href="#">Our Services</a></li>
+                           <li><a href="#">Management</a></li>
+                           <li><a href="#">Infrastructure</a></li>
+                           <li><a href="#">Consultancy</a></li>
+                           <li><a href="#">International Camps</a></li>
+                           <li><a href="#">News & Events</a></li>
+                           <li><a href="#">Contact Us</a></li>
+                           <li><a href="#">Careers</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="full">
+                     <div class="footer-widget">
+                        <h3>Contact us</h3>
+                        <ul class="address-list">
+                           <li><i class="fa fa-map-marker"></i> #332, East End,38th Cross,<br>Jayanagar 9th Block,<br>Bangalore - 560069</li>
+                           <li><i class="fa fa-phone"></i>+91 9886190260</li>
+                           <li><i style="font-size:20px;top:5px;" class="fa fa-envelope"></i>info@jsports.in</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="full">
+                     <div class="contact-footer">
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%23332%2C%20East%20End%2C38th%20Cross%2C%20Jayanagar%209th%20Block%2C%20Bangalore%20-%20560069&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="<a href="https://sites.google.com/view/maps-api-v2/mapv2"></a>">fall</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:400px;}</style></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <div class="container">
+               <p>Copyright © 2020 JSports.All rights reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+      <!-- ALL JS FILES -->
+      <script src="js/all.js"></script>
+      <!-- ALL PLUGINS -->
+      <script src="js/custom.js"></script>
+   </body>
+</html>
